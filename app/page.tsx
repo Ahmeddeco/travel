@@ -1,9 +1,7 @@
-import Image from 'next/image'
+import React from 'react'
 
-export default function Home() {
-  return (
-    <section className=' flex h-screen w-screen'>
-      <h1 className='m-auto '>TRAVEL</h1>
-    </section>
-  )
+const Home = () => {
+  return <section>Home</section>
 }
+
+export default Home
